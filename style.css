@@ -1,0 +1,77 @@
+* {
+  margin: 10px;
+}
+
+.contenedorPadre {
+  display: flex;
+  background-color: #ad584f;
+  border: 1px solid brown;
+  justify-content: space-around;
+}
+
+.elementosHijos {
+  display: flex;
+  width: 600px;
+  color: #000;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+
+.contenedorMain {
+  display: flex;
+  width: auto;
+}
+
+.section {
+  width: 95%;
+  border-radius: 15px;
+  border: 1px solid firebrick;
+}
+
+.aside {
+  width: 600px;
+  border-radius: 15px;
+  text-align: justify;
+  padding-top: 5px;
+  border: 1px solid firebrick;
+  justify-content: center;
+}
+
+.historiaCafe {
+  text-align: justify;
+}
+
+.imgCafeColombia {
+  text-align: center;
+}
+
+.imagenFederacion {
+  width: 730px;
+  height: 200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+.contenedorFooter {
+  background-color: #ad584f;
+  line-height: 10px;
+  height: 200px;
+}
+
+.alink {
+  text-decoration: none;
+}
